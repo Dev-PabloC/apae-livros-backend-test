@@ -1,0 +1,15 @@
+POST http://localhost:3000/api/category
+Content-Type: application/json
+
+{
+  "name": "test"
+}
+###
+GET http://localhost:3000/api/category
+Content-Type: application/json
+###
+GET http://localhost:3000/api/category/clv5jp3pb00001350u9d4mhd5
+Content-Type: application/json
+###
+DELETE http://localhost:3000/api/category/clv5jp3pb00001350u9d4mhd5
+Content-Type: application/json

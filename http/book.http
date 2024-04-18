@@ -1,0 +1,25 @@
+POST http://localhost:3000/api/books
+Content-Type: application/json
+
+{
+  "title": "test",
+  "author": "test",
+  "categoryId": "clv5jp3pb00001350u9d4mhd5",
+  "description": "test"
+}
+###
+GET http://localhost:3000/api/books
+Content-Type: application/json
+###
+GET http://localhost:3000/api/books/clv5jufcj0001lpcjoqho6dh0
+Content-Type: application/json
+###
+DELETE http://localhost:3000/api/books/clv5jufcj0001lpcjoqho6dh0
+Content-Type: application/json
+###
+PATCH http://localhost:3000/api/books/clv5jufcj0001lpcjoqho6dh0
+Content-Type: application/json
+
+{
+  "title": "test2"
+}

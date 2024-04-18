@@ -1,0 +1,31 @@
+{
+  "name": "backend-ab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/infra/server/server.ts",
+  "scripts": {
+    "dev:w": "tsx watch --env-file=.env src/infra/server/server.ts",
+    "build": "tsup dist/",
+    "test": "vitest",
+    "start": "node dist/src/infra/server/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/morgan": "^1.9.9",
+    "@types/node": "^20.12.7",
+    "prisma": "^5.12.1",
+    "tsup": "^8.0.2",
+    "tsx": "^4.7.2",
+    "typescript": "^5.4.5",
+    "vitest": "^1.5.0",
+    "zod": "^3.22.4"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.12.1",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0"
+  }
+}
